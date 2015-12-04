@@ -1,0 +1,112 @@
+/* mystyle.css by John Phillips on 9/8/2014 
+ * Style your pages here 
+ */
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+}
+h1 {
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: rgb(200, 200, 200);
+}
+h2 {
+    color: rgb(55, 210, 225);
+}
+h3 {
+    color: rgb(55, 210, 225);
+}
+p {
+    margin-left: 20px;
+    color: rgb(150, 150, 150);
+}
+input {
+    background-color: rgb(150, 150, 150);
+    border: 3px solid black;
+}
+input, select {
+    margin: 10px 5px 0px 5px;
+    background-color: rgb(150, 150, 150);
+    border: 3px solid black;
+}
+input[type=radio] {
+    margin-left: 20px;
+}
+textarea {
+    background-color: rgb(150, 150, 150);
+    border: 3px solid black;
+}
+h1 a:link { 
+    color: rgb(200, 200, 200); 
+    text-decoration: none;
+}
+h1 a:visited { 
+    color: rgb(200, 200, 200); 
+    text-decoration: none;
+}
+h1 a:hover { 
+    color: rgb(150, 150, 150); 
+    text-decoration: none;
+}
+h1 a:active { 
+    color: rgb(200, 200, 200); 
+    text-decoration: underline;
+}
+p a:link { 
+    color: rgb(200, 200, 200); 
+    text-decoration: none;
+}
+p a:visited { 
+    color: rgb(200, 200, 200); 
+    text-decoration: none;
+}
+p a:hover { 
+    color: rgb(150, 150, 150); 
+    text-decoration: none;
+}
+p a:active { 
+    color: rgb(200, 200, 200); 
+    text-decoration: underline;
+}
+footer {
+    font-size: x-small;
+    margin-top: 8em;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+thead {
+    background-color: rgb(200, 200, 200);
+}
+table, th, td {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+tr {
+    background-color: rgb(225, 225, 225);
+    border-bottom: 2px solid black;
+}
+tr:hover {
+    background-color: rgb(55, 210, 225);
+}
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+form {
+    color: rgb(150, 150, 150);
+}
